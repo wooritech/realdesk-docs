@@ -9,7 +9,7 @@ vuepress build . --dest ../docs
 # if you are deploying to a custom domain
 echo 'docs.realdesk.kr' > ../docs/CNAME
 
-git add .
+git add -A
 
 if [ "$1" = "" ] ; then
   NOW=$(date +'%Y-%m-%d %T')
