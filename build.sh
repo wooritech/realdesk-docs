@@ -16,7 +16,7 @@ if [ "$1" = "" ] ; then
   git commit -m "deploy $NOW"
   # echo "deploy $NOW"
 else
-  git commit -m "deploy: $FIRST_ARGS"
+  git commit -m "deploy: $1"
   # echo "deploy: $1"
 fi
 
