@@ -12,11 +12,15 @@ module.exports = {
     },
     themeConfig: {
       nav: [
+        { text: 'QuickGuide', link: '/quick-guide/' },
         { text: 'Guide', link: '/guide/' },
         { text: 'Developer', link: '/developer/' },
         { text: 'GitHub', link: 'https://github.com/realdesk/docs' },
       ],
       sidebar: {
+        '/quick-guide': [
+          '/quick-guide/',
+        ],
         '/guide': [
           {
             title: '사용자 가이드',
