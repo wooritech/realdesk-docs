@@ -4,10 +4,10 @@
 set -e
 
 # build
-vuepress build . --dest ../docs
+vuepress build . --dest ./docs
 
 # if you are deploying to a custom domain
-echo 'docs.realdesk.kr' > ../docs/CNAME
+echo 'docs.realdesk.kr' > ./docs/CNAME
 
 git add -A
 
