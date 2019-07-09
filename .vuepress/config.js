@@ -15,7 +15,7 @@ module.exports = {
         { text: 'QuickGuide', link: '/quick-guide/' },
         { text: 'Guide', link: '/guide/' },
         { text: 'Developer', link: '/developer/' },
-        { text: 'GitHub', link: 'https://github.com/realdesk/docs' },
+        { text: 'RealDesk', link: 'http://realdesk.kr' },
       ],
       sidebar: {
         '/quick-guide': [
