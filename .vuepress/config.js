@@ -18,16 +18,20 @@ module.exports = {
         { text: 'RealDesk', link: 'http://realdesk.kr' },
       ],
       sidebar: {
-        '/quick-guide/',
+        '/quick-guide/': [
+          '/quick-guide/',
+          '/guide/',
+        ],
         '/guide': [
+          '/quick-guide/',
           {
-            title: '사용자 가이드',
+            title: '시작하기',
             path: '/guide/',
             collapsable: false,
             sidebarDepth: 2,
             children: [
               '/guide/',
-              '/guide/new-ticket',
+              // '/guide/new-ticket',
               '/guide/ticket-merge',
               '/guide/keyword-tags',
               '/guide/view-source',
