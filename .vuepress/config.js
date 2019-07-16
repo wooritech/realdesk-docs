@@ -18,9 +18,7 @@ module.exports = {
         { text: 'RealDesk', link: 'http://realdesk.kr' },
       ],
       sidebar: {
-        '/quick-guide': [
-          '/quick-guide/',
-        ],
+        '/quick-guide/',
         '/guide': [
           {
             title: '사용자 가이드',
