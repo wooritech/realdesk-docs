@@ -20,18 +20,22 @@ module.exports = {
       sidebar: {
         '/quick-guide/': [
           '/quick-guide/',
-          '/guide/',
+          {
+            title: '기능별 도움말',
+            path: '/guide/',
+          }
         ],
         '/guide': [
           '/quick-guide/',
           {
-            title: '시작하기',
+            title: '기능별 도움말',
             path: '/guide/',
             collapsable: false,
             sidebarDepth: 2,
             children: [
               '/guide/',
               // '/guide/new-ticket',
+              '/guide/features/how-to-use-coupons',
               '/guide/ticket-merge',
               '/guide/keyword-tags',
               '/guide/view-source',
